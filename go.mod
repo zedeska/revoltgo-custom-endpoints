@@ -1,4 +1,4 @@
-module github.com/sentinelb51/revoltgo
+module github.com/zedeska/revoltgo-custom-endpoints
 
 go 1.20
 
