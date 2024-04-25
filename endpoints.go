@@ -5,7 +5,7 @@ import (
 )
 
 const (
-	baseURLAutumn = "https://autumn.revolt.chat/"
+	baseURLAutumn = "https://yetanothermusicserver.top/autumn"
 	URLIcons      = baseURLAutumn + "icons/%s"
 )
 
@@ -18,7 +18,7 @@ func EndpointIcon(id string, size string) (url string) {
 }
 
 const (
-	baseURL          = "https://api.revolt.chat"
+	baseURL          = "https://yetanothermusicserver.top/api"
 	URLUsersUsername = baseURL + "/users/me/username"
 
 	URLUsers              = baseURL + "/users/%s"
