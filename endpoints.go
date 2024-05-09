@@ -5,7 +5,7 @@ import (
 )
 
 const (
-	baseURLAutumn = "https://yetanothermusicserver.top/autumn"
+	baseURLAutumn = "http://localhost:5000/autumn"
 	URLIcons      = baseURLAutumn + "icons/%s"
 )
 
@@ -18,7 +18,7 @@ func EndpointIcon(id string, size string) (url string) {
 }
 
 const (
-	baseURL          = "https://yetanothermusicserver.top/api"
+	baseURL          = "http://localhost:5000/api"
 	URLUsersUsername = baseURL + "/users/me/username"
 
 	URLUsers              = baseURL + "/users/%s"
